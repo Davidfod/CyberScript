@@ -1,13 +1,13 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
--- Configurações e Variáveis de Acesso (TOTALMENTE MANTIDAS)
+
 local codigoGerado = ""
 local codigoEnviado = false
 local caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 local webhookURL = "https://discord.com/api/webhooks/1480910359920509062/HqBbwxsKdW0IUIExeEKKwEfLfwbLFGeVMJHAc171y1sJSt-jvZ09a6JS2kGYUMob5cw_"
 local meuDiscord = "https://discord.gg/Xs6m9vXY"
 
--- Variáveis da Aba Mira
+
 local HitboxAtiva = false
 local HitboxTamanho = 2
 local AimbotAtivo = false
@@ -27,16 +27,16 @@ local function gerarNovoCodigo()
 end
 codigoGerado = gerarNovoCodigo()
 
--- Janela Principal
+
 local Window = Rayfield:CreateWindow({
     Name = "CyberNoDry Hub | SCRIPT EB DO DELTA",
-    LoadingTitle = "Iniciando Gemini System...",
+    LoadingTitle = "Iniciando  System...",
     LoadingSubtitle = "By: CyberNoDry",
     ConfigurationSaving = { Enabled = false },
     KeySystem = false
 })
 
--- ABA DE VERIFICAÇÃO (LOGIN) - RESTAURADA E COMPLETA
+
 local TabLogin = Window:CreateTab("Verificação", 4483362458)
 
 TabLogin:CreateButton({
